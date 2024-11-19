@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Lemonada", cursive;
+}
+
+header {
+    background-image: linear-gradient(135deg, #FFD3A5 10%, #FD6585 100%);
+    position: relative;
+    height: 50vh;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+
+/* تنسيق الشعار */
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #2a2a2a;
+    font-weight: bold;
+    margin-left: 10rem;
+}
+
+.logo img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.box {
+    background-color: #6884b5;
+    padding: 20px;
+    width: 22rem;
+    position: absolute;
+    top: 12rem;
+    left: 18rem;
+    border-radius: 10px;
+    box-shadow: -20px 16px 0px #81a8e0;
+    text-align: center;
+}
+
+h2 {
+    color: #E8EAF6;
+    margin: 0;
+}
+
+.interfsce img {
+    width: 15rem;
+    position: absolute;
+    right: 26rem;
+    top: 324px;
+}
+
+.intro-text {
+    width: 48rem;
+    position: absolute;
+    left: 19rem;
+    top: 27rem;
+    font-size: 18px;
+}
+
+/* ---------------------------------------بدايه تنسيق الكارد------------------------------------------- */
+/* -----------------------card-a-------------------------- */
+.card_a {
+    background-color: #ff6600;
+    border-bottom: 90px solid #8c1300;
+    width: 29rem;
+    height: 20rem;
+    position: absolute;
+    left: 12rem;
+    top: 42rem;
+    border-radius: 0 0 0 49px;
+}
+
+.card_a img {
+    position: absolute;
+    left: -2rem;
+    top: 2rem;
+    width: 30rem;
+    height: 18rem;
+}
+
+.p-a {
+    width: 37rem;
+    height: 18rem;
+    padding: 44px;
+    position: absolute;
+    left: 39rem;
+    top: 47rem;
+    background-color: #ffffff;
+    border-radius: 25px;
+    line-height: 40px;
+}
+
+.p-a h3 {
+    color: #ff6600;
+}
+
+.p-a p {
+    font-size: 16px;
+}
+
+.p-a button {
+    width: 160px;
+    height: 47px;
+    border-radius: 30px;
+    border: none;
+    background-color: #8c1300;
+}
+
+/* -------------------card-b--------------------------------- */
+
+.card_b {
+    background-color: #5e6062;
+    border-bottom: 90px solid #abadaf;
+    width: 29rem;
+    height: 20rem;
+    position: absolute;
+    left: 51rem;
+    top: 69rem;
+    border-radius: 0 0 66px 0;
+}
+
+.card_b img {
+    position: absolute;
+    left: 1rem;
+    top: 2rem;
+    width: 30rem;
+    height: 18rem;
+}
+
+.p-b {
+    width: 37rem;
+    height: 18rem;
+    padding: 44px;
+    position: absolute;
+    left: 18rem;
+    top: 73rem;
+    background-color: #ffffff;
+    border-radius: 25px;
+    line-height: 40px;
+}
+
+.p-b h3 {
+    color: #5e6062;
+}
+
+.p-b p {
+    font-size: 16px;
+}
+
+.p-b button {
+    width: 160px;
+    height: 47px;
+    border-radius: 30px;
+    border: none;
+    background-color: #abadaf;
+}
+
+/* -------------------card-c--------------------------------- */
+
+.card_c {
+    background-color: #f73220;
+    border-bottom: 90px solid #EF9A9A;
+    width: 29rem;
+    height: 20rem;
+    position: absolute;
+    left: 8rem;
+    top: 94rem;
+    border-radius: 0 0 0 50px;
+}
+
+.card_c img {
+    position: absolute;
+    left: 1rem;
+    top: 2rem;
+    width: 30rem;
+    height: 18rem;
+}
+
+.p-c {
+    width: 37rem;
+    height: 18rem;
+    padding: 44px;
+    position: absolute;
+    left: 34rem;
+    top: 99rem;
+    background-color: #ffffff;
+    border-radius: 25px;
+    line-height: 70px;
+}
+
+.p-c h3 {
+    color: #f73220;
+}
+
+.p-c p {
+    font-size: 16px;
+}
+
+.p-c button {
+    width: 160px;
+    height: 47px;
+    border-radius: 30px;
+    border: none;
+    background-color: #EF9A9A;
+}
+
+/* ------------------------------------------------------------ */
+footer {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    padding-top: 5rem;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    position: absolute;
+    top: 120rem;
+    width: 100%;
+}
+
+.footer_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+    color: #fff;
+}
+
+.footer_1 {
+    margin-left: 70px;
+}
+
+.footer_1 a img {
+    margin: 0 0 2rem;
+}
+
+footer ul li {
+    margin-bottom: 0.7rem;
+}
+
+footer ul li a {
+    color: #f1f7f4;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer_socials {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: -12rem;
+    margin-left: 56px;
+    ;
+}
+
+.footer_copyright {
+    text-align: center;
+    color: #eff3f0;
+    margin-top: 1rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid #4A148C;
+}
